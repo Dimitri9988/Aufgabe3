@@ -1,41 +1,82 @@
-.pagetitelimg {
-    display: inline-block;
-
+* {
+    padding: 0%;
+    margin: 0%;
 }
+
+html,body {
+    height:100%
+}
+
+
 
 .pagetiteltext{
     display: inline-block;
+    margin-left: 0%;
+    font-size: 125%;
+    font-weight: bold;
 }
 
 .logo {
-    width: 40%;
+    width: 15%;
     height: auto;
-    display:inline ;
+    display: inline-block;
+    margin-left: -3%;
 }
 
 .tabel {
-    text-align: center;
-    margin-left: 20%;
-    margin-right: 20%;
+    text-align: left;
+    margin-left: 25%;
+    margin-top: 2%;
 }
 
 table {
-    width: 100%;
-  }
+    width: 70%;
+}
+
+th {
+    font-weight: normal;
+}
 
 .pagetitel {
-    text-align: center;
+    text-align: left;
     margin-left: 25%;
-    margin-right: 20%;
+    margin-right: 0%;
     width: 40%;
+}
+.Footerdiv {
+    text-align: left;
+    margin-left: 39%;
+    width: 40%;
+    bottom: 0px;
+    position:absolute ; bottom: 0;
+    padding: 1%;
 }
 
 .section {
-    text-align: center;
-    margin-left: 22%;
+    text-align: left;
+    margin-left: 42%;
     margin-right: 20%;
 }
 
+
+
 .section h3 {
     margin-bottom: 0%;
+}
+
+h3 {
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+h2 {
+    margin-top: 4%;
+}
+
+.fett {
+    font-weight: bold;
+}
+
+.lightbluetext {
+    color: lightskyblue;
 }
